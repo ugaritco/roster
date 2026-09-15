@@ -1,0 +1,11 @@
+.idea
+/node_modules
+/public/app.js.LICENSE.txt
+/vendor
+composer.lock
+!tests/fixtures/fog/composer.lock
+!tests/fixtures/phpunit/composer.lock
+/phpunit.xml
+.phpunit.result.cache
+.claude
+approach-candidates.md

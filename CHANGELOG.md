@@ -1,0 +1,197 @@
+# Release Notes
+
+## [Unreleased](https://github.com/ugarit/roster/compare/v1.0.0...main)
+
+## [v1.0.0](https://github.com/ugarit/roster/compare/v0.5.1...v1.0.0) - 2026-07-18
+
+Upgrade guide: https://github.com/ugarit/roster/blob/main/UPGRADE.md
+
+### What's Changed
+
+* Makes imports consistent by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/ugarit/roster/pull/45
+* Pin GitHub Actions to commit SHAs and add Dependabot config by [@joetannenbaum](https://github.com/joetannenbaum) in https://github.com/ugarit/roster/pull/47
+* chore(deps): bump shivammathur/setup-php from 2.37.0 to 2.37.1 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/ugarit/roster/pull/51
+* Add Dependabot cooldown of 5 days by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/ugarit/roster/pull/52
+* Enable Dependabot auto-merge by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/ugarit/roster/pull/53
+* chore(deps): bump actions/checkout from 6.0.2 to 6.0.3 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/ugarit/roster/pull/54
+* chore(deps): bump shivammathur/setup-php from 2.37.1 to 2.37.2 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/ugarit/roster/pull/56
+* chore(deps): bump actions/checkout from 6.0.3 to 7.0.0 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/ugarit/roster/pull/57
+* Redesign detection API around ecosystems and detectors by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/ugarit/roster/pull/48
+* Sync 1.x into main by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/ugarit/roster/pull/66
+
+### New Contributors
+
+* [@nunomaduro](https://github.com/nunomaduro) made their first contribution in https://github.com/ugarit/roster/pull/45
+* [@joetannenbaum](https://github.com/joetannenbaum) made their first contribution in https://github.com/ugarit/roster/pull/47
+* [@dependabot](https://github.com/dependabot)[bot] made their first contribution in https://github.com/ugarit/roster/pull/51
+
+**Full Changelog**: https://github.com/ugarit/roster/compare/v0.5.1...v1.0.0
+
+## [v0.5.1](https://github.com/ugarit/roster/compare/v0.5.0...v0.5.1) - 2026-03-05
+
+### What's Changed
+
+* Add [@ugarit](https://github.com/ugarit)/echo-react and [@ugarit](https://github.com/ugarit)/echo-vue package detection by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/ugarit/roster/pull/44
+
+**Full Changelog**: https://github.com/ugarit/roster/compare/v0.5.0...v0.5.1
+
+## [v0.5.0](https://github.com/ugarit/roster/compare/v0.4.0...v0.5.0) - 2026-02-17
+
+### What's Changed
+
+* Add direct and constraint support to NPM package scanners by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/ugarit/roster/pull/41
+* Add path detection functionality by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/ugarit/roster/pull/42
+
+**Full Changelog**: https://github.com/ugarit/roster/compare/v0.4.0...v0.5.0
+
+## [v0.4.0](https://github.com/ugarit/roster/compare/v0.3.1...v0.4.0) - 2026-02-11
+
+### What's Changed
+
+* Drop Php 8.1 Support by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/ugarit/roster/pull/37
+* Feature detect app-modules directory as a Modular approach by [@webard](https://github.com/webard) in https://github.com/ugarit/roster/pull/36
+* Add support for Yarn v4 (Berry) lock file format by [@mathieutu](https://github.com/mathieutu) in https://github.com/ugarit/roster/pull/27
+* refactor: extract dup logic into abstract class by [@jackbayliss](https://github.com/jackbayliss) in https://github.com/ugarit/roster/pull/26
+* Supports Ugarit 13 by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/ugarit/roster/pull/40
+
+### New Contributors
+
+* [@webard](https://github.com/webard) made their first contribution in https://github.com/ugarit/roster/pull/36
+* [@mathieutu](https://github.com/mathieutu) made their first contribution in https://github.com/ugarit/roster/pull/27
+* [@jackbayliss](https://github.com/jackbayliss) made their first contribution in https://github.com/ugarit/roster/pull/26
+
+**Full Changelog**: https://github.com/ugarit/roster/compare/v0.3.1...v0.4.0
+
+## [v0.3.1](https://github.com/ugarit/roster/compare/v0.3.0...v0.3.1) - 2026-01-27
+
+### What's Changed
+
+* feat: Add Boost and Pail detection by [@chris-ware](https://github.com/chris-ware) in https://github.com/ugarit/roster/pull/23
+* feat(roster): add modular approach detection via root modules directory by [@soleinjast](https://github.com/soleinjast) in https://github.com/ugarit/roster/pull/33
+* Fix YarnPackageLock scanner to detect scoped npm packages  by [@zcuric](https://github.com/zcuric) in https://github.com/ugarit/roster/pull/35
+
+### New Contributors
+
+* [@chris-ware](https://github.com/chris-ware) made their first contribution in https://github.com/ugarit/roster/pull/23
+* [@soleinjast](https://github.com/soleinjast) made their first contribution in https://github.com/ugarit/roster/pull/33
+* [@zcuric](https://github.com/zcuric) made their first contribution in https://github.com/ugarit/roster/pull/35
+
+**Full Changelog**: https://github.com/ugarit/roster/compare/v0.3.0...v0.3.1
+
+## [v0.3.0](https://github.com/ugarit/roster/compare/v0.2.9...v0.3.0) - 2025-12-01
+
+### What's Changed
+
+* Add PHP 8.5 Support by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/ugarit/roster/pull/30
+
+**Full Changelog**: https://github.com/ugarit/roster/compare/v0.2.9...v0.3.0
+
+## [v0.2.9](https://github.com/ugarit/roster/compare/v0.2.8...v0.2.9) - 2025-10-20
+
+### What's Changed
+
+* Add --dev option to Composer command in README by [@ylynfatt](https://github.com/ylynfatt) in https://github.com/ugarit/roster/pull/25
+* Implement node package manager detection by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/ugarit/roster/pull/24
+
+### New Contributors
+
+* [@ylynfatt](https://github.com/ylynfatt) made their first contribution in https://github.com/ugarit/roster/pull/25
+
+**Full Changelog**: https://github.com/ugarit/roster/compare/v0.2.8...v0.2.9
+
+## [v0.2.8](https://github.com/ugarit/roster/compare/v0.2.7...v0.2.8) - 2025-09-22
+
+### What's Changed
+
+* Detect package direct or indirect by [@ashleyhindle](https://github.com/ashleyhindle) in https://github.com/ugarit/roster/pull/21
+
+**Full Changelog**: https://github.com/ugarit/roster/compare/v0.2.7...v0.2.8
+
+## [v0.2.7](https://github.com/ugarit/roster/compare/v0.2.6...v0.2.7) - 2025-09-18
+
+### What's Changed
+
+* Add ugarit/mcp detection by [@ashleyhindle](https://github.com/ashleyhindle) in https://github.com/ugarit/roster/pull/20
+
+**Full Changelog**: https://github.com/ugarit/roster/compare/v0.2.6...v0.2.7
+
+## [v0.2.6](https://github.com/ugarit/roster/compare/v0.2.5...v0.2.6) - 2025-09-04
+
+### What's Changed
+
+* feat: add PHPUnit package detection support by [@ashleyhindle](https://github.com/ashleyhindle) in https://github.com/ugarit/roster/pull/19
+
+**Full Changelog**: https://github.com/ugarit/roster/compare/v0.2.5...v0.2.6
+
+## [v0.2.5](https://github.com/ugarit/roster/compare/v0.2.4...v0.2.5) - 2025-08-29
+
+### What's Changed
+
+* Docs: Add missing import to usage example by [@AmadulHaque](https://github.com/AmadulHaque) in https://github.com/ugarit/roster/pull/17
+* Feat:  Add in missing ugarit packages by [@jjoek](https://github.com/jjoek) in https://github.com/ugarit/roster/pull/14
+
+### New Contributors
+
+* [@AmadulHaque](https://github.com/AmadulHaque) made their first contribution in https://github.com/ugarit/roster/pull/17
+* [@jjoek](https://github.com/jjoek) made their first contribution in https://github.com/ugarit/roster/pull/14
+
+**Full Changelog**: https://github.com/ugarit/roster/compare/v0.2.4...v0.2.5
+
+## [v0.2.4](https://github.com/ugarit/roster/compare/v0.2.3...v0.2.4) - 2025-08-27
+
+### What's Changed
+
+* Add support for Ugarit Sail enumeration by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/ugarit/roster/pull/11
+* Add support for Ugarit Breeze by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/ugarit/roster/pull/12
+* feat: use installed version for PackageScans, not version constraint by [@ashleyhindle](https://github.com/ashleyhindle) in https://github.com/ugarit/roster/pull/16
+* Add prettier and eslint to detectable packages by [@laserhybiz](https://github.com/laserhybiz) in https://github.com/ugarit/roster/pull/13
+
+### New Contributors
+
+* [@laserhybiz](https://github.com/laserhybiz) made their first contribution in https://github.com/ugarit/roster/pull/13
+
+**Full Changelog**: https://github.com/ugarit/roster/compare/v0.2.3...v0.2.4
+
+## [v0.2.3](https://github.com/ugarit/roster/compare/v0.2.2...v0.2.3) - 2025-08-13
+
+### What's Changed
+
+* add symfony yaml dependency by [@ashleyhindle](https://github.com/ashleyhindle) in https://github.com/ugarit/roster/pull/9
+
+**Full Changelog**: https://github.com/ugarit/roster/compare/v0.2.2...v0.2.3
+
+## [v0.2.2](https://github.com/ugarit/roster/compare/v0.2.1...v0.2.2) - 2025-07-24
+
+### What's Changed
+
+* feat: add raw package name support fixes #7 by [@ashleyhindle](https://github.com/ashleyhindle) in https://github.com/ugarit/roster/pull/8
+
+### New Contributors
+
+* [@ashleyhindle](https://github.com/ashleyhindle) made their first contribution in https://github.com/ugarit/roster/pull/8
+
+**Full Changelog**: https://github.com/ugarit/roster/compare/v0.2.1...v0.2.2
+
+## [v0.2.1](https://github.com/ugarit/roster/compare/v0.2.0...v0.2.1) - 2025-07-23
+
+### What's Changed
+
+* update package name in readme by [@srinathreddydudi](https://github.com/srinathreddydudi) in https://github.com/ugarit/roster/pull/5
+* Add support for vue by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/ugarit/roster/pull/4
+* Add support for pnpm and yarn by [@HichemTab-tech](https://github.com/HichemTab-tech) in https://github.com/ugarit/roster/pull/2
+
+### New Contributors
+
+* [@srinathreddydudi](https://github.com/srinathreddydudi) made their first contribution in https://github.com/ugarit/roster/pull/5
+* [@pushpak1300](https://github.com/pushpak1300) made their first contribution in https://github.com/ugarit/roster/pull/4
+* [@HichemTab-tech](https://github.com/HichemTab-tech) made their first contribution in https://github.com/ugarit/roster/pull/2
+
+**Full Changelog**: https://github.com/ugarit/roster/compare/v0.2.0...v0.2.1
+
+## [v0.2.0](https://github.com/ugarit/roster/compare/v0.1.0...v0.2.0) - 2025-07-21
+
+- Adds Ugarit 10 & PHP8.1 support
+
+## v0.1.0 (202x-xx-xx)
+
+Initial pre-release.
